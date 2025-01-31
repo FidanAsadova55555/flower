@@ -1,0 +1,15 @@
+.smthforabslt {
+    position: relative; 
+    &::before {
+        background-color: #d5d4d4;
+        content: "";
+        height: 15px;
+        position: absolute;
+        right: -27px;
+        top: 47%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width: 1px;
+    }
+  }
+  
