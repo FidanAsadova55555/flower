@@ -9,7 +9,7 @@ import "./styles/style.scss"
 createRoot(document.getElementById('root')).render(
   <StrictMode>
    <BrowserRouter>
-   <App  className="font-poppins"/>
+   <App/>
    </BrowserRouter>
   </StrictMode>,
 )

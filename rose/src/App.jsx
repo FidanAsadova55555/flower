@@ -4,14 +4,14 @@ import Home from './pages/home/home';
 import Layout from './layout/layout';
 const App = () => {
   return (
-<>
+<div className='font-poppins'>
 <Layout>
 <Routes>
         <Route path="/" element={<Home />} />
         
       </Routes>
 </Layout>
-</>  )
+</div>  )
 }
 
 export default App
