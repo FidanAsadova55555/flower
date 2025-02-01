@@ -5,7 +5,7 @@ const Button = () => {
 
   return (
       <button
-        className={`relative px-[50px] py-[19px] font-normal uppercase border-[1px] ${
+        className={`mb-[120px]  relative px-[50px] py-[19px] font-normal uppercase border-[1px] ${
           isHovered ? "border-[#a749ff]" : "border-[#333]"
         } overflow-hidden transition-colors duration-500 text-gray-800 hover:text-white`}
         onMouseEnter={() => setIsHovered(true)}
