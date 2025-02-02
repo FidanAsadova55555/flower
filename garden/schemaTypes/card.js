@@ -29,10 +29,9 @@ export default defineType({
       description: "Category of the product",
       options: {
         list: [
-          { title: "Books", value: "books" },
-          { title: "Electronics", value: "electronics" },
-          { title: "Fashion", value: "fashion" },
-          { title: "Accessories", value: "accessories" },
+          { title: "New", value: "new" },
+          { title: "Old", value: "old" },
+          
         ],
       },
       hidden: ({ document }) => !document?.isPublished,
