@@ -1,5 +1,5 @@
 import blockContent from './blockContent'
-import blog from './blog'
+import card from './card'
 import navbar from './navbar'
-
-export const schemaTypes = [blog,navbar, blockContent]
+import flower from './flower'
+export const schemaTypes = [flower,card,navbar, blockContent]
