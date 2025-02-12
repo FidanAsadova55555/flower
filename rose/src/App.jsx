@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, Navigate } from "react-router-dom"; // ✅ Added Navigate
+import { Routes, Route, Navigate } from "react-router-dom"; 
 import Home from "./pages/home/home";
 import Layout from "./layout/layout";
 import "remixicon/fonts/remixicon.css";
